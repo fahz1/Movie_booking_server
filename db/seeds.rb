@@ -30,4 +30,3 @@ s3 = Show.create(city:"Brisbane", time:"1pm", size:10)
 m1.shows << s1
 m1.shows << s2
 m2.shows << s3
-# m1.shows << s1
