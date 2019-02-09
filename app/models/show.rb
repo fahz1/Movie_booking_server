@@ -1,3 +1,4 @@
 class Show < ApplicationRecord
-  has_many :movies
+  belongs_to :movie , :optional => true
+  has_many :bookings 
 end

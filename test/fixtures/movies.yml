@@ -3,11 +3,11 @@
 one:
   name: MyText
   image: MyText
-  decription: MyText
+  description: MyText
   rating: 1
 
 two:
   name: MyText
   image: MyText
-  decription: MyText
+  description: MyText
   rating: 1
