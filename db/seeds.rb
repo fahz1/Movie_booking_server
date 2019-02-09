@@ -30,3 +30,6 @@ m1.shows << s1
 m1.shows << s2
 m2.shows << s3
 # m1.shows << s1
+
+b1 = Booking.create(:user_id => 1, :seat => 10)
+s1.bookings << b1
