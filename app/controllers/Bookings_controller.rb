@@ -2,9 +2,17 @@ class BookingsController < ApplicationController
   def index
       @bookings = Booking.all
   end
+  def getbookings
+      @bookings = Booking.where(:show_id => params[:show_id])
+      @bookings
+      # format.json { render :getbooking }
+      # render :getbooking
+  end
+  def show
+    @booking = Booking.find_by :id => params[:id]
+  end
   def create
     @booking = Booking.new(booking_params)
-
     respond_to do |format|
       if @booking.save
         format.html { redirect_to @booking, notice: 'Booking was successfully created.' }
