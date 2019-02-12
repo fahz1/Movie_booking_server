@@ -6,7 +6,11 @@ class MoviesController < ApplicationController
   end
 
   def show
-    # @movies = Movies.all
+    @movie = Movie.find_by :id => params[:id]
+    respond_to do |format|
+      format.html
+      format.json { render :json => @movie.to_json() }
+    end
   end
 
 end
