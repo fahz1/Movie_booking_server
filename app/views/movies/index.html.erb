@@ -9,6 +9,14 @@
       <th>Image</th>
       <th>Description</th>
       <th>Rating</th>
+      <th>castname1</th>
+      <th>castimage1</th>
+      <th>castname2</th>
+      <th>castimage2</th>
+      <th>castname3</th>
+      <th>castimage3</th>
+
+
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -20,6 +28,15 @@
         <td><%= movie.image %></td>
         <td><%= movie.description %></td>
         <td><%= movie.rating %></td>
+        <td><%= movie.castname1 %></td>
+        <td><%= movie.castimage1 %></td>
+        <td><%= movie.castname2 %></td>
+        <td><%= movie.castimage2 %></td>
+        <td><%= movie.castname3 %></td>
+        <td><%= movie.castimage3 %></td>
+        <td><%= movie.director %></td>
+
+
         <td><%= link_to 'Show', movie %></td>
         <td><%= link_to 'Edit', edit_movie_path(movie) %></td>
         <td><%= link_to 'Destroy', movie, method: :delete, data: { confirm: 'Are you sure?' } %></td>
