@@ -17,4 +17,5 @@ class ShowsController < ApplicationController
     end
     # render:showbycity
   end
+
 end

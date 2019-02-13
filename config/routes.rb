@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   # get '/shows' => "shows#index"
   get '/showbookings/:show_id' => "bookings#getbookings"
   get '/showsbycity/:city' => "shows#showbycity"
+  get '/getmoviesbycity/:city' => "movies#getMoviesbycity"
 
   resources :movies
   resources :shows
