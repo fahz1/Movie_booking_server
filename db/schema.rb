@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_02_11_214046) do
+ActiveRecord::Schema.define(version: 2019_02_12_231842) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -30,6 +30,13 @@ ActiveRecord::Schema.define(version: 2019_02_11_214046) do
     t.integer "rating"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.text "castname1"
+    t.text "castimage1"
+    t.text "castname2"
+    t.text "castimage2"
+    t.text "castname3"
+    t.text "castimage3"
+    t.text "director"
   end
 
   create_table "shows", force: :cascade do |t|
@@ -39,6 +46,8 @@ ActiveRecord::Schema.define(version: 2019_02_11_214046) do
     t.integer "size"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.text "name"
+    t.text "date"
   end
 
   create_table "users", force: :cascade do |t|
