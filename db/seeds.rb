@@ -31,166 +31,167 @@ Movie.destroy_all
 #   t.text "castimage3"
 #   t.text "director"
 # end
-m1 = Movie.create(name: "Escape Room", image:"/images/EscapeRoom/EscapeRoom.jpg",
+m1 = Movie.create(name: "Escape Room", image:"images/EscapeRoom/EscapeRoom.jpg",
 description:"Six strangers find themselves in circumstances beyond their control, and
 must use their wits to survive..", rating: 5,
-castname1: "Taylor Russell", castimage1: "/images/EscapeRoom/EvanWilliams.jpg",
-castname2: "Logan Miller", castimage2: "/images/EscapeRoom/ElisabethHower.jpg",
-castname3: "Jay Ellis", castimage3: "/images/EscapeRoom/AnnabelleStephenson.jpg",
+castname1: "Taylor Russell", castimage1: "images/EscapeRoom/EvanWilliams.jpg",
+castname2: "Logan Miller", castimage2: "images/EscapeRoom/ElisabethHower.jpg",
+castname3: "Jay Ellis", castimage3: "images/EscapeRoom/AnnabelleStephenson.jpg",
 director: "Adam Robitel")
 #---
-m2 = Movie.create(name: "Cold Pursuit", image:"/images/ColdPursuit/ColdPursuit.jpg",
+m2 = Movie.create(name: "Cold Pursuit", image:"images/ColdPursuit/ColdPursuit.jpg",
 description:"Welcome to Kehoe, it’s -10 degrees and counting at this glitzy ski resort in the Rocky Mountains.
 The local police aren’t used to much action until the son of unassuming town snowplough driver, Nels Coxman (Liam Neeson), is murdered at the order of Viking (Tom Bateman), a flamboyant drug lord.
 Fueled by rage and armed with heavy machinery, Nels sets out to dismantle the cartel one man at a time, but his understanding of murder comes mainly from what he read in a crime novel.",
 rating: 5,
-castname1: "Liam Neeson", castimage1: "/images/ColdPursuit/LauraDern.jpg",
-castname2: "Laura Dern", castimage2: "/images/ColdPursuit/LiamNeersan.jpg",
-castname3: "Emmy Rossum", castimage3: "/images/ColdPursuit/MicheálRichardson.jpg",
+castname1: "Liam Neeson", castimage1: "images/ColdPursuit/LauraDern.jpg",
+castname2: "Laura Dern", castimage2: "images/ColdPursuit/LiamNeersan.jpg",
+castname3: "Emmy Rossum", castimage3: "images/ColdPursuit/MicheálRichardson.jpg",
 director: "Hans Petter Moland")
  #--
-m3 = Movie.create(name: "The Mule", image: "/images/GreenBook/GreenBook.jpg",
+m3 = Movie.create(name: "The Mule", image: "images/GreenBook/GreenBook.jpg",
 description:" A 90-year-old horticulturist and WWII veteran is caught transporting $3 million worth of cocaine through Michigan for a Mexican drug cartel.",
 rating: 5,
-castname1: "Mahershala Ali", castimage1: "/images/GreenBook/Mahershala Ali.jpg",
-castname2: "Clint Eastwood", castimage2: "/images/GreenBook/ArmieHammer.jpg",
-castname3: "Taissa Farmiga", castimage3: "/images/GreenBook/JustinTheroux.jpg",
+castname1: "Mahershala Ali", castimage1: "images/GreenBook/Mahershala Ali.jpg",
+castname2: "Clint Eastwood", castimage2: "images/GreenBook/ArmieHammer.jpg",
+castname3: "Taissa Farmiga", castimage3: "images/GreenBook/JustinTheroux.jpg",
 director: "Clint Eastwood")
 # #--
-m4 = Movie.create(name: "On the Basis of Sex", image: "/images/OntheBasisofSex/OntheBasisofSex.jpg",
+m4 = Movie.create(name: "On the Basis of Sex", image: "images/OntheBasisofSex/OntheBasisofSex.jpg",
 description:" The inspiring origin story of Ruth Bader Ginsburg, a passionate young lawyer who dedicates herself to ending gender discrimination when she takes on a ground-breaking case in 1975.",
 rating: 5,
-castname1: "Felicity Jones", castimage1: "/images/OntheBasisofSex/Felicity.jpg",
-castname2: "Sam Waterston", castimage2: "/images/OntheBasisofSex/SamWaterston.jpg",
-castname3: "Kathy Bates", castimage3: "/images/OntheBasisofSex/KathyBates.jpg",
+castname1: "Felicity Jones", castimage1: "images/OntheBasisofSex/Felicity.jpg",
+castname2: "Sam Waterston", castimage2: "images/OntheBasisofSex/SamWaterston.jpg",
+castname3: "Kathy Bates", castimage3: "images/OntheBasisofSex/KathyBates.jpg",
 director: "Mimi Leder")
 #--
-m5 = Movie.create(name: "Glass", image: "/images/Glass/Glass.jpg",
+m5 = Movie.create(name: "Glass", image: "images/Glass/Glass.jpg",
 description: "Glass finds Dunn pursuing Crumb's superhuman figure of The Beast in a series of escalating encounters, while the shadowy presence of Price emerges as an orchestrator who holds secrets critical to both men.",
 rating: 5,
-castname1: "Bruce Willis", castimage1: "/images/Glas/BruceWillis.jpg",
-castname2: "James McAvoy", castimage2: "/images/Glas/JamesMcAvoy.jpg",
-castname3: "Samuel Jackson", castimage3: "/images/Glas/SamuelLJackson.jpg",
+castname1: "Bruce Willis", castimage1: "images/Glas/BruceWillis.jpg",
+castname2: "James McAvoy", castimage2: "images/Glas/JamesMcAvoy.jpg",
+castname3: "Samuel Jackson", castimage3: "images/Glas/SamuelLJackson.jpg",
 director: "M. Night Shyamalan")
 #--
-m6 = Movie.create(name: "Instant Family", image:"/images/Instantfamily/Instantfamily.jpg",
+m6 = Movie.create(name:
+  "Instant Family", image:"images/Instantfamily/Instantfamily.jpg",
 description:" When Pete (Mark Wahlberg) and Ellie (Rose Byrne) decide to start a family, they stumble into the world of foster care adoption.",
 rating: 5,
-castname1: "Mark Wahlberg", castimage1: "/images/Instantfamily/MarkWahlberg.jpg",
-castname2: "Rose Byrne", castimage2: "/images/Instantfamily/RoseByrne.jpg",
-castname3: "Isabela Moner", castimage3: "/images/Instantfamily/Isabela Moner.jpg",
+castname1: "Mark Wahlberg", castimage1: "images/Instantfamily/MarkWahlberg.jpg",
+castname2: "Rose Byrne", castimage2: "images/Instantfamily/RoseByrne.jpg",
+castname3: "Isabela Moner", castimage3: "images/Instantfamily/Isabela Moner.jpg",
 director: "Sean Anders")
 #--
-m7 = Movie.create(name: "Ben is Back", image:"/images/Instantfamily/Instantfamily.jpg",
+m7 = Movie.create(name: "Ben is Back", image:"images/Instantfamily/Instantfamily.jpg",
 description:" When Pete (Mark Wahlberg) and Ellie (Rose Byrne) decide to start a family, they stumble into the world of foster care adoption.",
 rating: 5,
-castname1: "Mark Wahlberg", castimage1: "/images/Instantfamily/MarkWahlberg.jpg",
-castname2: "Rose Byrne", castimage2: "/images/Instantfamily/RoseByrne.jpg",
-castname3: "Isabela Moner", castimage3: "/images/Instantfamily/Isabela Moner.jpg",
+castname1: "Mark Wahlberg", castimage1: "images/Instantfamily/MarkWahlberg.jpg",
+castname2: "Rose Byrne", castimage2: "images/Instantfamily/RoseByrne.jpg",
+castname3: "Isabela Moner", castimage3: "images/Instantfamily/Isabela Moner.jpg",
 director: "Sean Anders")
 # #--
-m8 = Movie.create(name: "Aqua Man", image:"/images/Aquaman/Aquaman.jpg",
+m8 = Movie.create(name: "Aqua Man", image:"images/Aquaman/Aquaman.jpg",
 description:" When Pete (Mark Wahlberg) and Ellie (Rose Byrne) decide to start a family, they stumble into the world of foster care adoption.",
 rating: 5,
-castname1: "Mark Wahlberg", castimage1: "/images/Instantfamily/MarkWahlberg.jpg",
-castname2: "Rose Byrne", castimage2: "/images/Instantfamily/RoseByrne.jpg",
-castname3: "Isabela Moner", castimage3: "/images/Instantfamily/Isabela Moner.jpg",
+castname1: "Mark Wahlberg", castimage1: "images/Instantfamily/MarkWahlberg.jpg",
+castname2: "Rose Byrne", castimage2: "images/Instantfamily/RoseByrne.jpg",
+castname3: "Isabela Moner", castimage3: "images/Instantfamily/Isabela Moner.jpg",
 director: "Sean Anders")
 # #--
-m9 = Movie.create(name: "Storm Boy", image:"/images/StormBoy/StormBoy.jpg",
+m9 = Movie.create(name: "Storm Boy", image:"images/StormBoy/StormBoy.jpg",
 description:" When Pete (Mark Wahlberg) and Ellie (Rose Byrne) decide to start a family, they stumble into the world of foster care adoption.",
 rating: 5,
-castname1: "Mark Wahlberg", castimage1: "/images/Instantfamily/MarkWahlberg.jpg",
-castname2: "Rose Byrne", castimage2: "/images/Instantfamily/RoseByrne.jpg",
-castname3: "Isabela Moner", castimage3: "/images/Instantfamily/Isabela Moner.jpg",
+castname1: "Mark Wahlberg", castimage1: "images/Instantfamily/MarkWahlberg.jpg",
+castname2: "Rose Byrne", castimage2: "images/Instantfamily/RoseByrne.jpg",
+castname3: "Isabela Moner", castimage3: "images/Instantfamily/Isabela Moner.jpg",
 director: "Sean Anders")
 # #--
-m10 = Movie.create(name: "A Star is Born", image:"/images/AStarisBorn/AStarisBorn.jpg",
+m10 = Movie.create(name: "A Star is Born", image:"images/AStarisBorn/AStarisBorn.jpg",
 description:" When Pete (Mark Wahlberg) and Ellie (Rose Byrne) decide to start a family, they stumble into the world of foster care adoption.",
 rating: 5,
-castname1: "Mark Wahlberg", castimage1: "/images/Instantfamily/MarkWahlberg.jpg",
-castname2: "Rose Byrne", castimage2: "/images/Instantfamily/RoseByrne.jpg",
-castname3: "Isabela Moner", castimage3: "/images/Instantfamily/Isabela Moner.jpg",
+castname1: "Mark Wahlberg", castimage1: "images/Instantfamily/MarkWahlberg.jpg",
+castname2: "Rose Byrne", castimage2: "images/Instantfamily/RoseByrne.jpg",
+castname3: "Isabela Moner", castimage3: "images/Instantfamily/Isabela Moner.jpg",
 director: "Sean Anders")
 # #--
-m11 = Movie.create(name: "The Wondering Earth", image:"/images/TheWonderingEarth/TheWonderingEarth.jpg",
+m11 = Movie.create(name: "The Wondering Earth", image:"images/TheWonderingEarth/TheWonderingEarth.jpg",
 description:" When Pete (Mark Wahlberg) and Ellie (Rose Byrne) decide to start a family, they stumble into the world of foster care adoption.",
 rating: 5,
-castname1: "Mark Wahlberg", castimage1: "/images/Instantfamily/MarkWahlberg.jpg",
-castname2: "Rose Byrne", castimage2: "/images/Instantfamily/RoseByrne.jpg",
-castname3: "Isabela Moner", castimage3: "/images/Instantfamily/Isabela Moner.jpg",
+castname1: "Mark Wahlberg", castimage1: "images/Instantfamily/MarkWahlberg.jpg",
+castname2: "Rose Byrne", castimage2: "images/Instantfamily/RoseByrne.jpg",
+castname3: "Isabela Moner", castimage3: "images/Instantfamily/Isabela Moner.jpg",
 director: "Sean Anders")
 # #--
-m12 = Movie.create(name: "Spider Man", image:"/images/Spiderman/Spiderman.jpg",
+m12 = Movie.create(name: "Spider Man", image:"images/Spiderman/Spiderman.jpg",
 description:" When Pete (Mark Wahlberg) and Ellie (Rose Byrne) decide to start a family, they stumble into the world of foster care adoption.",
 rating: 5,
-castname1: "Mark Wahlberg", castimage1: "/images/Instantfamily/MarkWahlberg.jpg",
-castname2: "Rose Byrne", castimage2: "/images/Instantfamily/RoseByrne.jpg",
-castname3: "Isabela Moner", castimage3: "/images/Instantfamily/Isabela Moner.jpg",
+castname1: "Mark Wahlberg", castimage1: "images/Instantfamily/MarkWahlberg.jpg",
+castname2: "Rose Byrne", castimage2: "images/Instantfamily/RoseByrne.jpg",
+castname3: "Isabela Moner", castimage3: "images/Instantfamily/Isabela Moner.jpg",
 director: "Sean Anders")
 # #--
-m13 = Movie.create(name: "Ben is Back", image:"/images/BenisBack/BenisBack.jpg",
+m13 = Movie.create(name: "Ben is Back", image:"images/BenisBack/BenisBack.jpg",
 description:" When Pete (Mark Wahlberg) and Ellie (Rose Byrne) decide to start a family, they stumble into the world of foster care adoption.",
 rating: 5,
-castname1: "Mark Wahlberg", castimage1: "/images/Instantfamily/MarkWahlberg.jpg",
-castname2: "Rose Byrne", castimage2: "/images/Instantfamily/RoseByrne.jpg",
-castname3: "Isabela Moner", castimage3: "/images/Instantfamily/Isabela Moner.jpg",
+castname1: "Mark Wahlberg", castimage1: "images/Instantfamily/MarkWahlberg.jpg",
+castname2: "Rose Byrne", castimage2: "images/Instantfamily/RoseByrne.jpg",
+castname3: "Isabela Moner", castimage3: "images/Instantfamily/Isabela Moner.jpg",
 director: "Sean Anders")
 # --
-m14 = Movie.create(name: "Marry Poppins", image:"/images/MarryPoppins/MarryPoppins.jpg",
+m14 = Movie.create(name: "Marry Poppins", image:"images/MarryPoppins/MarryPoppins.jpg",
 description:" When Pete (Mark Wahlberg) and Ellie (Rose Byrne) decide to start a family, they stumble into the world of foster care adoption.",
 rating: 5,
-castname1: "Mark Wahlberg", castimage1: "/images/Instantfamily/MarkWahlberg.jpg",
-castname2: "Rose Byrne", castimage2: "/images/Instantfamily/RoseByrne.jpg",
-castname3: "Isabela Moner", castimage3: "/images/Instantfamily/Isabela Moner.jpg",
+castname1: "Mark Wahlberg", castimage1: "images/Instantfamily/MarkWahlberg.jpg",
+castname2: "Rose Byrne", castimage2: "images/Instantfamily/RoseByrne.jpg",
+castname3: "Isabela Moner", castimage3: "images/Instantfamily/Isabela Moner.jpg",
 director: "Sean Anders")
 # --
-m15 = Movie.create(name: "Extreme", image:"/images/Extreme.jpg",
+m15 = Movie.create(name: "Extreme", image:"images/Extreme.jpg",
 description:" When Pete (Mark Wahlberg) and Ellie (Rose Byrne) decide to start a family, they stumble into the world of foster care adoption.",
 rating: 5,
-castname1: "Mark Wahlberg", castimage1: "/images/Instantfamily/MarkWahlberg.jpg",
-castname2: "Rose Byrne", castimage2: "/images/Instantfamily/RoseByrne.jpg",
-castname3: "Isabela Moner", castimage3: "/images/Instantfamily/Isabela Moner.jpg",
+castname1: "Mark Wahlberg", castimage1: "images/Instantfamily/MarkWahlberg.jpg",
+castname2: "Rose Byrne", castimage2: "images/Instantfamily/RoseByrne.jpg",
+castname3: "Isabela Moner", castimage3: "images/Instantfamily/Isabela Moner.jpg",
 director: "Sean Anders")
 # --
 m16 = Movie.create(name: "Marry Queen of Scots", image:"/images/MarryQueens.jpg",
 description:" When Pete (Mark Wahlberg) and Ellie (Rose Byrne) decide to start a family, they stumble into the world of foster care adoption.",
 rating: 5,
-castname1: "Mark Wahlberg", castimage1: "/images/Instantfamily/MarkWahlberg.jpg",
-castname2: "Rose Byrne", castimage2: "/images/Instantfamily/RoseByrne.jpg",
-castname3: "Isabela Moner", castimage3: "/images/Instantfamily/Isabela Moner.jpg",
+castname1: "Mark Wahlberg", castimage1: "images/Instantfamily/MarkWahlberg.jpg",
+castname2: "Rose Byrne", castimage2: "images/Instantfamily/RoseByrne.jpg",
+castname3: "Isabela Moner", castimage3: "images/Instantfamily/Isabela Moner.jpg",
 director: "Sean Anders")
 #
-m17 = Movie.create(name: "Collete", image:"/images/Collete.jpg",
+m17 = Movie.create(name: "Collete", image:"images/Collete.jpg",
 description:" When Pete (Mark Wahlberg) and Ellie (Rose Byrne) decide to start a family, they stumble into the world of foster care adoption.",
 rating: 5,
-castname1: "Mark Wahlberg", castimage1: "/images/Instantfamily/MarkWahlberg.jpg",
-castname2: "Rose Byrne", castimage2: "/images/Instantfamily/RoseByrne.jpg",
-castname3: "Isabela Moner", castimage3: "/images/Instantfamily/Isabela Moner.jpg",
+castname1: "Mark Wahlberg", castimage1: "images/Instantfamily/MarkWahlberg.jpg",
+castname2: "Rose Byrne", castimage2: "images/Instantfamily/RoseByrne.jpg",
+castname3: "Isabela Moner", castimage3: "images/Instantfamily/Isabela Moner.jpg",
 director: "Sean Anders")
 #
-m18 = Movie.create(name: "Vice", image:"/images/Vice.jpg",
+m18 = Movie.create(name: "Vice", image:"images/Vice.jpg",
 description:" When Pete (Mark Wahlberg) and Ellie (Rose Byrne) decide to start a family, they stumble into the world of foster care adoption.",
 rating: 5,
-castname1: "Mark Wahlberg", castimage1: "/images/Instantfamily/MarkWahlberg.jpg",
-castname2: "Rose Byrne", castimage2: "/images/Instantfamily/RoseByrne.jpg",
-castname3: "Isabela Moner", castimage3: "/images/Instantfamily/Isabela Moner.jpg",
+castname1: "Mark Wahlberg", castimage1: "images/Instantfamily/MarkWahlberg.jpg",
+castname2: "Rose Byrne", castimage2: "images/Instantfamily/RoseByrne.jpg",
+castname3: "Isabela Moner", castimage3: "images/Instantfamily/Isabela Moner.jpg",
 director: "Sean Anders")
 #
-m19 = Movie.create(name: "The Favorite", image:"/images/TheFavorite.jpg",
+m19 = Movie.create(name: "The Favorite", image:"images/TheFavorite.jpg",
 description:" When Pete (Mark Wahlberg) and Ellie (Rose Byrne) decide to start a family, they stumble into the world of foster care adoption.",
 rating: 5,
-castname1: "Mark Wahlberg", castimage1: "/images/TheFavorite.jpg",
-castname2: "Rose Byrne", castimage2: "/images/Instantfamily/RoseByrne.jpg",
-castname3: "Isabela Moner", castimage3: "/images/Instantfamily/Isabela Moner.jpg",
+castname1: "Mark Wahlberg", castimage1: "images/TheFavorite.jpg",
+castname2: "Rose Byrne", castimage2: "images/Instantfamily/RoseByrne.jpg",
+castname3: "Isabela Moner", castimage3: "images/Instantfamily/Isabela Moner.jpg",
 director: "Sean Anders")
 #
-m20 = Movie.create(name: "The Combination: Redemption", image:"/images/TheCombination.jpg",
+m20 = Movie.create(name: "The Combination: Redemption", image:"images/TheCombination.jpg",
 description:" When Pete (Mark Wahlberg) and Ellie (Rose Byrne) decide to start a family, they stumble into the world of foster care adoption.",
 rating: 5,
-castname1: "Mark Wahlberg", castimage1: "/images/Instantfamily/MarkWahlberg.jpg",
-castname2: "Rose Byrne", castimage2: "/images/Instantfamily/RoseByrne.jpg",
-castname3: "Isabela Moner", castimage3: "/images/Instantfamily/Isabela Moner.jpg",
+castname1: "Mark Wahlberg", castimage1: "images/Instantfamily/MarkWahlberg.jpg",
+castname2: "Rose Byrne", castimage2: "images/Instantfamily/RoseByrne.jpg",
+castname3: "Isabela Moner", castimage3: "images/Instantfamily/Isabela Moner.jpg",
 director: "Sean Anders")
 #
 # create_table "shows", force: :cascade do |t|
