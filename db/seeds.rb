@@ -154,7 +154,7 @@ castname2: "Rose Byrne", castimage2: "images/Instantfamily/RoseByrne.jpg",
 castname3: "Isabela Moner", castimage3: "images/Instantfamily/Isabela Moner.jpg",
 director: "Sean Anders")
 # --
-m16 = Movie.create(name: "Marry Queen of Scots", image:"/images/MarryQueens.jpg",
+m16 = Movie.create(name: "Marry Queen of Scots", image:"images/MarryQueens.jpg",
 description:" When Pete (Mark Wahlberg) and Ellie (Rose Byrne) decide to start a family, they stumble into the world of foster care adoption.",
 rating: 5,
 castname1: "Mark Wahlberg", castimage1: "images/Instantfamily/MarkWahlberg.jpg",
