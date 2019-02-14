@@ -52,7 +52,7 @@ director: "Hans Petter Moland")
 m3 = Movie.create(name: "The Mule", image: "images/GreenBook/GreenBook.jpg",
 description:" A 90-year-old horticulturist and WWII veteran is caught transporting $3 million worth of cocaine through Michigan for a Mexican drug cartel.",
 rating: 5,
-castname1: "Mahershala Ali", castimage1: "images/GreenBook/Mahershala Ali.jpg",
+castname1: "Mahershala Ali", castimage1: "images/GreenBook/MahershalaAli.jpg",
 castname2: "Clint Eastwood", castimage2: "images/GreenBook/ArmieHammer.jpg",
 castname3: "Taissa Farmiga", castimage3: "images/GreenBook/JustinTheroux.jpg",
 director: "Clint Eastwood")
@@ -68,9 +68,9 @@ director: "Mimi Leder")
 m5 = Movie.create(name: "Glass", image: "images/Glass/Glass.jpg",
 description: "Glass finds Dunn pursuing Crumb's superhuman figure of The Beast in a series of escalating encounters, while the shadowy presence of Price emerges as an orchestrator who holds secrets critical to both men.",
 rating: 5,
-castname1: "Bruce Willis", castimage1: "images/Glas/BruceWillis.jpg",
-castname2: "James McAvoy", castimage2: "images/Glas/JamesMcAvoy.jpg",
-castname3: "Samuel Jackson", castimage3: "images/Glas/SamuelLJackson.jpg",
+castname1: "Bruce Willis", castimage1: "images/Glass/BruceWillis.jpg",
+castname2: "James McAvoy", castimage2: "images/Glass/JamesMcAvoy.jpg",
+castname3: "Samuel Jackson", castimage3: "images/Glass/SamuelLJackson.jpg",
 director: "M. Night Shyamalan")
 #--
 m6 = Movie.create(name:
@@ -79,7 +79,7 @@ description:" When Pete (Mark Wahlberg) and Ellie (Rose Byrne) decide to start a
 rating: 5,
 castname1: "Mark Wahlberg", castimage1: "images/Instantfamily/MarkWahlberg.jpg",
 castname2: "Rose Byrne", castimage2: "images/Instantfamily/RoseByrne.jpg",
-castname3: "Isabela Moner", castimage3: "images/Instantfamily/Isabela Moner.jpg",
+castname3: "Isabela Moner", castimage3: "images/Instantfamily/IsabelaMoner.jpg",
 director: "Sean Anders")
 #--
 m7 = Movie.create(name: "Ben is Back", image:"images/Instantfamily/Instantfamily.jpg",
@@ -87,7 +87,7 @@ description:" When Pete (Mark Wahlberg) and Ellie (Rose Byrne) decide to start a
 rating: 5,
 castname1: "Mark Wahlberg", castimage1: "images/Instantfamily/MarkWahlberg.jpg",
 castname2: "Rose Byrne", castimage2: "images/Instantfamily/RoseByrne.jpg",
-castname3: "Isabela Moner", castimage3: "images/Instantfamily/Isabela Moner.jpg",
+castname3: "Isabela Moner", castimage3: "images/Instantfamily/IsabelaMoner.jpg",
 director: "Sean Anders")
 # #--
 m8 = Movie.create(name: "Aqua Man", image:"images/Aquaman/Aquaman.jpg",
@@ -95,7 +95,7 @@ description:" When Pete (Mark Wahlberg) and Ellie (Rose Byrne) decide to start a
 rating: 5,
 castname1: "Mark Wahlberg", castimage1: "images/Instantfamily/MarkWahlberg.jpg",
 castname2: "Rose Byrne", castimage2: "images/Instantfamily/RoseByrne.jpg",
-castname3: "Isabela Moner", castimage3: "images/Instantfamily/Isabela Moner.jpg",
+castname3: "Isabela Moner", castimage3: "images/Instantfamily/IsabelaMoner.jpg",
 director: "Sean Anders")
 # #--
 m9 = Movie.create(name: "Storm Boy", image:"images/StormBoy/StormBoy.jpg",
@@ -103,7 +103,7 @@ description:" When Pete (Mark Wahlberg) and Ellie (Rose Byrne) decide to start a
 rating: 5,
 castname1: "Mark Wahlberg", castimage1: "images/Instantfamily/MarkWahlberg.jpg",
 castname2: "Rose Byrne", castimage2: "images/Instantfamily/RoseByrne.jpg",
-castname3: "Isabela Moner", castimage3: "images/Instantfamily/Isabela Moner.jpg",
+castname3: "Isabela Moner", castimage3: "images/Instantfamily/IsabelaMoner.jpg",
 director: "Sean Anders")
 # #--
 m10 = Movie.create(name: "A Star is Born", image:"images/AStarisBorn/AStarisBorn.jpg",
@@ -111,7 +111,7 @@ description:" When Pete (Mark Wahlberg) and Ellie (Rose Byrne) decide to start a
 rating: 5,
 castname1: "Mark Wahlberg", castimage1: "images/Instantfamily/MarkWahlberg.jpg",
 castname2: "Rose Byrne", castimage2: "images/Instantfamily/RoseByrne.jpg",
-castname3: "Isabela Moner", castimage3: "images/Instantfamily/Isabela Moner.jpg",
+castname3: "Isabela Moner", castimage3: "images/Instantfamily/IsabelaMoner.jpg",
 director: "Sean Anders")
 # #--
 m11 = Movie.create(name: "The Wondering Earth", image:"images/TheWonderingEarth/TheWonderingEarth.jpg",
@@ -119,7 +119,7 @@ description:" When Pete (Mark Wahlberg) and Ellie (Rose Byrne) decide to start a
 rating: 5,
 castname1: "Mark Wahlberg", castimage1: "images/Instantfamily/MarkWahlberg.jpg",
 castname2: "Rose Byrne", castimage2: "images/Instantfamily/RoseByrne.jpg",
-castname3: "Isabela Moner", castimage3: "images/Instantfamily/Isabela Moner.jpg",
+castname3: "Isabela Moner", castimage3: "images/Instantfamily/IsabelaMoner.jpg",
 director: "Sean Anders")
 # #--
 m12 = Movie.create(name: "Spider Man", image:"images/Spiderman/Spiderman.jpg",
@@ -127,7 +127,7 @@ description:" When Pete (Mark Wahlberg) and Ellie (Rose Byrne) decide to start a
 rating: 5,
 castname1: "Mark Wahlberg", castimage1: "images/Instantfamily/MarkWahlberg.jpg",
 castname2: "Rose Byrne", castimage2: "images/Instantfamily/RoseByrne.jpg",
-castname3: "Isabela Moner", castimage3: "images/Instantfamily/Isabela Moner.jpg",
+castname3: "Isabela Moner", castimage3: "images/Instantfamily/IsabelaMoner.jpg",
 director: "Sean Anders")
 # #--
 m13 = Movie.create(name: "Ben is Back", image:"images/BenisBack/BenisBack.jpg",
@@ -135,7 +135,7 @@ description:" When Pete (Mark Wahlberg) and Ellie (Rose Byrne) decide to start a
 rating: 5,
 castname1: "Mark Wahlberg", castimage1: "images/Instantfamily/MarkWahlberg.jpg",
 castname2: "Rose Byrne", castimage2: "images/Instantfamily/RoseByrne.jpg",
-castname3: "Isabela Moner", castimage3: "images/Instantfamily/Isabela Moner.jpg",
+castname3: "Isabela Moner", castimage3: "images/Instantfamily/IsabelaMoner.jpg",
 director: "Sean Anders")
 # --
 m14 = Movie.create(name: "Marry Poppins", image:"images/MarryPoppins/MarryPoppins.jpg",
@@ -143,7 +143,7 @@ description:" When Pete (Mark Wahlberg) and Ellie (Rose Byrne) decide to start a
 rating: 5,
 castname1: "Mark Wahlberg", castimage1: "images/Instantfamily/MarkWahlberg.jpg",
 castname2: "Rose Byrne", castimage2: "images/Instantfamily/RoseByrne.jpg",
-castname3: "Isabela Moner", castimage3: "images/Instantfamily/Isabela Moner.jpg",
+castname3: "Isabela Moner", castimage3: "images/Instantfamily/IsabelaMoner.jpg",
 director: "Sean Anders")
 # --
 m15 = Movie.create(name: "Extreme", image:"images/Extreme.jpg",
@@ -151,7 +151,7 @@ description:" When Pete (Mark Wahlberg) and Ellie (Rose Byrne) decide to start a
 rating: 5,
 castname1: "Mark Wahlberg", castimage1: "images/Instantfamily/MarkWahlberg.jpg",
 castname2: "Rose Byrne", castimage2: "images/Instantfamily/RoseByrne.jpg",
-castname3: "Isabela Moner", castimage3: "images/Instantfamily/Isabela Moner.jpg",
+castname3: "Isabela Moner", castimage3: "images/Instantfamily/IsabelaMoner.jpg",
 director: "Sean Anders")
 # --
 m16 = Movie.create(name: "Marry Queen of Scots", image:"images/MarryQueens.jpg",
@@ -159,7 +159,7 @@ description:" When Pete (Mark Wahlberg) and Ellie (Rose Byrne) decide to start a
 rating: 5,
 castname1: "Mark Wahlberg", castimage1: "images/Instantfamily/MarkWahlberg.jpg",
 castname2: "Rose Byrne", castimage2: "images/Instantfamily/RoseByrne.jpg",
-castname3: "Isabela Moner", castimage3: "images/Instantfamily/Isabela Moner.jpg",
+castname3: "Isabela Moner", castimage3: "images/Instantfamily/IsabelaMoner.jpg",
 director: "Sean Anders")
 #
 m17 = Movie.create(name: "Collete", image:"images/Collete.jpg",
@@ -167,7 +167,7 @@ description:" When Pete (Mark Wahlberg) and Ellie (Rose Byrne) decide to start a
 rating: 5,
 castname1: "Mark Wahlberg", castimage1: "images/Instantfamily/MarkWahlberg.jpg",
 castname2: "Rose Byrne", castimage2: "images/Instantfamily/RoseByrne.jpg",
-castname3: "Isabela Moner", castimage3: "images/Instantfamily/Isabela Moner.jpg",
+castname3: "Isabela Moner", castimage3: "images/Instantfamily/IsabelaMoner.jpg",
 director: "Sean Anders")
 #
 m18 = Movie.create(name: "Vice", image:"images/Vice.jpg",
@@ -175,7 +175,7 @@ description:" When Pete (Mark Wahlberg) and Ellie (Rose Byrne) decide to start a
 rating: 5,
 castname1: "Mark Wahlberg", castimage1: "images/Instantfamily/MarkWahlberg.jpg",
 castname2: "Rose Byrne", castimage2: "images/Instantfamily/RoseByrne.jpg",
-castname3: "Isabela Moner", castimage3: "images/Instantfamily/Isabela Moner.jpg",
+castname3: "Isabela Moner", castimage3: "images/Instantfamily/IsabelaMoner.jpg",
 director: "Sean Anders")
 #
 m19 = Movie.create(name: "The Favorite", image:"images/TheFavorite.jpg",
@@ -183,7 +183,7 @@ description:" When Pete (Mark Wahlberg) and Ellie (Rose Byrne) decide to start a
 rating: 5,
 castname1: "Mark Wahlberg", castimage1: "images/TheFavorite.jpg",
 castname2: "Rose Byrne", castimage2: "images/Instantfamily/RoseByrne.jpg",
-castname3: "Isabela Moner", castimage3: "images/Instantfamily/Isabela Moner.jpg",
+castname3: "Isabela Moner", castimage3: "images/Instantfamily/IsabelaMoner.jpg",
 director: "Sean Anders")
 #
 m20 = Movie.create(name: "The Combination: Redemption", image:"images/TheCombination.jpg",
@@ -191,7 +191,7 @@ description:" When Pete (Mark Wahlberg) and Ellie (Rose Byrne) decide to start a
 rating: 5,
 castname1: "Mark Wahlberg", castimage1: "images/Instantfamily/MarkWahlberg.jpg",
 castname2: "Rose Byrne", castimage2: "images/Instantfamily/RoseByrne.jpg",
-castname3: "Isabela Moner", castimage3: "images/Instantfamily/Isabela Moner.jpg",
+castname3: "Isabela Moner", castimage3: "images/Instantfamily/IsabelaMoner.jpg",
 director: "Sean Anders")
 #
 # create_table "shows", force: :cascade do |t|
