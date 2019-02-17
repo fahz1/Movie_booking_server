@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project servers as a backend for online movie booking portal. It exposes services those are consumed my end clients to fetch Movie, Show and Booking data.
 
 Things you may want to cover:
 
-* Ruby version
+* Models
+*  User
+*  Movie
+*  Show
+*  Booking
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Gems
