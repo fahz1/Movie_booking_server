@@ -8,7 +8,7 @@ This project serves as a backend for online movie booking portal. It exposes ser
  * showbycity
 
 ## URL
-https://github.com/fahz1/Movie_booking_server
+https://moviebookingserver.herokuapp.com/
 
 ## Models
 *  User
